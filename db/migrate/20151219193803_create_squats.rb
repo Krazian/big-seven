@@ -1,9 +1,10 @@
-class CreateMilitaryPresses < ActiveRecord::Migration
+class CreateSquats < ActiveRecord::Migration
   def change
-    create_table :military_presses do |t|
+    create_table :squats do |t|
       t.integer :user_id
       t.integer :reps
       t.integer :sets
+      t.integer :weight
       t.string :notes
       t.integer :date
 

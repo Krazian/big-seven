@@ -1,9 +1,10 @@
-class CreateDips < ActiveRecord::Migration
+class CreatePullChinUps < ActiveRecord::Migration
   def change
-    create_table :dips do |t|
+    create_table :pull_chin_ups do |t|
       t.integer :user_id
       t.integer :reps
       t.integer :sets
+      t.integer :weight
       t.string :notes
       t.integer :date
 

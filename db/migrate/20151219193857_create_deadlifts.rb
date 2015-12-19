@@ -1,9 +1,10 @@
-class CreateRows < ActiveRecord::Migration
+class CreateDeadlifts < ActiveRecord::Migration
   def change
-    create_table :rows do |t|
+    create_table :deadlifts do |t|
       t.integer :user_id
       t.integer :reps
       t.integer :sets
+      t.integer :weight
       t.string :notes
       t.integer :date
 

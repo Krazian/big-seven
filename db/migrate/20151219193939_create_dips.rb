@@ -1,9 +1,10 @@
-class CreateBenchPresses < ActiveRecord::Migration
+class CreateDips < ActiveRecord::Migration
   def change
-    create_table :bench_presses do |t|
+    create_table :dips do |t|
       t.integer :user_id
       t.integer :reps
       t.integer :sets
+      t.integer :weight
       t.string :notes
       t.integer :date
 

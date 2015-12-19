@@ -5,6 +5,7 @@ one:
   reps: 1
   sets: 1
   notes: MyString
+  weight: 1
   date: 1
 
 two:
@@ -12,4 +13,5 @@ two:
   reps: 1
   sets: 1
   notes: MyString
+  weight: 1
   date: 1
