@@ -1,0 +1,19 @@
+<%= form_tag users_path, method:"get" do %>
+	<%= field_set_tag do%>
+		<%= label_tag 'Email'%>
+		<%= text_field_tag 'email'%>
+		<%= label_tag 'Password'%>
+		<%= password_field_tag 'password'%>
+	<% end %>
+<% end %>
+<!-- <form method="get" action="/users/">
+	<fieldset>
+		<label for="Password">Email</label>
+		<input type="text">
+	</br>
+		<label for="Password">Password</label>
+		<input type="password">
+	</br>
+		<input type="submit">
+	</fieldset>
+</form> -->
