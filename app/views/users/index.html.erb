@@ -7,3 +7,11 @@
 		<%= button_tag 'Log In' %>
 	<% end %>
 <% end %>
+
+<% @stuff.each do |person| %>
+	<%=person.first_name %></br>
+	<%=person.last_name %></br>
+	<%=person.email %></br>
+	<%=person.password %>
+
+	<% end %>
